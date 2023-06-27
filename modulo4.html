@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia crítica de la educación de las artes</title>
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconos.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts-miranda.css">
+    <link rel="stylesheet" href="css/dropdown-menu.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/simple-slider.css">
+    <link rel="stylesheet" href="css/text-accordion.css">
+    <link rel="stylesheet" href="css/tabs2.css">
+    
+    <style>
+        .imgder {
+            float: right;
+            /*para ponerlo a la derecha */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgizq {
+            float: left;
+            /*para ponerlo a la izquierda */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgcenter {
+            float: center;
+            /*para ponerlo al centro */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgizq img,
+        .imgder img,
+        .imgcenter img {
+            display: block;
+            margin: 0 auto;
+            /* centrar imagen */
+        }
+
+        .imgizq p,
+        .imgder,
+        .imgcenter p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .mi-iframe {
+            width: 100%;
+            height: 1200px;
+        }
+
+        .mi-iframet1 {
+            width: 225px;
+            height: 730px;
+        }
+
+        .mi-iframet2 {
+            width: 100%;
+            height: 965px;
+        }
+
+        .mi-iframet3 {
+            width: 100%;
+            height: 770px;
+        }
+
+        .Header1 {
+            width: 100%;
+            height: 600px
+        }
+
+        .Header2 {
+            width: 100%;
+            height: 450px
+        }
+
+        /* CSS pantallas de 320px o superior */
+
+        @media (min-width: 320px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2700px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 890px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1265px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+
+
+        }
+
+        @media (min-width: 360px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2900px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 765px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 990px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 560px;
+            }
+        }
+
+        @media (min-width: 375px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3000px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 775px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1100px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+
+
+        }
+
+        @media (min-width: 411px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3100px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+        }
+
+        @media (min-width: 411px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3200px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1030px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+        }
+
+        /* CSS pantalla 768px o superior */
+        @media (min-width: 768px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 1000px;
+            }
+
+            .biografia1 {
+                display: inline-block;
+            }
+
+            .biografia2 {
+                display: none;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 225px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header2 {
+                display: Inline-block;
+            }
+
+            .Header1 {
+                display: none;
+            }
+        }
+
+        @media (min-width: 1400px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 1125px;
+            }
+
+            .biografia1 {
+                display: inline-block;
+            }
+
+            .biografia2 {
+                display: none;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header1 {
+                display: Inline-block;
+            }
+
+            .Header2 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 600px) and (min-width: 415px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2900px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header2 {
+                display: Inline-block;
+            }
+
+            .Header1 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-fixed-top navbar-dark bg-navegador navbar-codaes">
+        <div class="contenedor-idiomas">
+            <div class="col-sm-6 col-xs-6 identidad-div">
+                <div class="navbar-brand logo-codaes codaes-logo">
+                    <p class="Text-title white bold" id="Titulo-navbar">Historia crítica de la educación de las artes</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+
+            </div>
+            <div id="dropdown" class="dropdown col-xs-2">
+            <button onclick="myFunction()" class="dropbtn fa fa-align-justify" style="font-size:30px;"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a class="titulo-universidad text-center" href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                    Universidad Veracruzana </a>
+
+               <a href="#contenido">Contenido:</a>
+               <a href="rutat.html" class="submenu"><i class="icon-contenido icon-menu"></i>Ruta académica</a>
+                <a href="modulo1.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 1</a>
+                <a href="modulo2.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 2</a>
+                <a href="modulo3.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 3</a>
+                <a href="modulo3.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 4</a>
+                
+            </div>
+        </div>
+            <div class="col-sm-3 col-xs-4 container-banderas">
+                <div class="col-md-12contenido-uni">
+                    <a href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                        <img src="images/pleca_uv.png" width="85%"> </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--  Encabezado -->
+
+    <!-- left bar-->
+    <ul id="social_side_links">
+        <a class="enlaces-izq" href="index.html">
+            <li class="field-tip" id="icon-home">
+                <i class="icon-home left-items purple"></i>
+                <span class="tip-content">Inicio</span>
+            </li>
+        </a>
+       <a class="enlaces-izq" href="rutat.html">
+            <li class="field-tip black" id="icon-ruta">
+                <i class="icon-lecturaTecnologia left-items purple" style="margin-bottom: 13% !important; font-size: 252%;"></i>
+                <span class="tip-content">Ruta académica</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo1.html">
+            <li class="field-tip">
+                <p class="left-items purple">1</p>
+                <span class="tip-content">Módulo 1</span>
+            </li>
+        </a>
+        
+        <a class="enlaces-izq" href="modulo2.html">
+            <li class="field-tip">
+                <p class="left-items purple">2</p>
+                <span class="tip-content">Módulo 2</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo3.html">
+            <li class="field-tip">
+                <p class="left-items purple">3</p>
+                <span class="tip-content">Módulo 3</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="#">
+            <li class="field-tip">
+                <p class="left-items tema-selected white">4</p>
+                <span class="tip-content">Módulo 4</span>
+            </li>
+        </a>
+
+
+    </ul>
+
+    <!-- right bar -->
+
+    <header class="hero" id="hero">
+        <div class="video-overlay" id="video-o"></div>
+        <div class="video-wrap" id="video-bg">
+            <video controls id="video-1" class="bg-video">
+                <source src="images/m4_historia.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </header>
+    
+    <section class="title">
+        <div class="container">
+            <h1 class="bold purple titulo">Módulo 4. Implicaciones de la modernidad y posmodernidad en la educación de las artes </h1>
+            
+            <p class="text-content purple" style="font-family: Lato; font-weight:bolder;">Objetivo de aprendizaje </p>
+          <p class="text-content justify">Comprender el tránsito del pensamiento moderno al posmoderno caracterizado en la imagen del mundo que permea la educación de las artes. </p>
+            <p class="text-content black bold">&nbsp;</p>
+            <p class="text-content purple bold"> Contenido y Evaluación del módulo</p>
+            <ul class="text-content">
+              	 <li>Tema 1. Hermenéutica analógica.</li>
+				<li>Tema 2. Modernidad líquida.</li>
+          </ul>
+            <p class="text-content purple bold">&nbsp;</p>
+        </div>
+    </section>
+    
+    <section class="cita-text" style="background: #8b4662;">
+        <div class="container">
+            <div class="separador">
+                <p class="text-content">&nbsp;</p>
+                <p class="white justify text-content" style="font-size: 25px;">
+                    "Nuestras vidas, la de los hombres y mujeres postmodernos, giran no tanto en torno al hacer cosas como al buscar y experimentar sensaciones" <br>Zygmunt Bauman
+                </p>
+                <p class="text-content">&nbsp;</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="contenedor-tema1">
+        <div class="container">
+            <h2 class="bold purple titulo">Tema 1. Hermenéutica analógica</h2>
+            <div class="imgcenter">
+            <img class="esquema-m4-t1" alt="Esquema" src="images/esquema2_m4_t1-01.jpg">
+            </div>
+			<p class="text-content">&nbsp;</p>
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter">Revisa el siguiente esquema que muestra los conceptos básicos de la hermenéutica analógica.</b> </p>
+            <div class="imgcenter">
+            <img class="imgcenter esquema" src="images/esquema_beuchot-01.jpg" alt="Esquema de Hermenéutica analógica">
+            </div>
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter">Observa el video titulado “Hermenéutica analógica. Mauricio Beuchot Puente”, quien explica este concepto y su aplicación en la pedagogía. </b> </p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="imgcenter">
+                                <div class="col-lg-12">
+                                    <p class="text-content">“Hermenéutica analógica. Mauricio Beuchot Puente”</p>
+                                    <a href="https://www.youtube.com/watch?v=lEtyR9sCXYA" target="_blank"><img src="images/iconos_filosofia_m1-09.jpg" alt="Lectura" width="100%" class="icono-actividad" /></a>
+                                    <p class="text-content">Fuente: UPN Ajusco (2013).</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+		
+    </section>    
+	<section class="contenedor-tema2">
+		<div class="container">
+			<h2 class="bold purple titulo">Tema 2. Modernidad líquida</h2>
+			<p class="text-content justify">La modernidad líquida, concepto acuñado por Zygmunt Bauman, aborda el tema del estado actual de la sociedad. El autor señala lo cambiante de nuestras prácticas tanto laborales como sociales y las consecuencias de ello. Es una invitación a reflexionar, a buscar sentido e intencionalidad a nuestro quehacer como profesionales del arte.
+			</p>
+		</div>
+	</section>
+    <section class="cita-text">
+            <div class="container">
+            <div class="separador">
+                <p class="text-content">&nbsp;</p>
+                <p class="white justify text-content" style="font-size: 25px; padding: 20px; ">
+                    "Nuestras vidas, la de los hombres y mujeres postmodernos, giran no tanto en torno al hacer cosas como al buscar y experimentar sensaciones." ( Bauman, 2007).         
+                </p>
+                <p class="text-content">&nbsp;</p>
+                
+            </div>
+        </div>
+    </section>
+    <section class="contenedor-tema2">
+		<div class="container">
+			
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter">Observa el siguiente video que muestra los puntos principales de la teoría de la Modernidad líquida.</b> </p>
+			<div class="row">
+                <div class="col-lg-12">
+                    <div class="imgcenter">
+                                <div class="col-lg-12">
+                                    <p class="text-content">“Zygmunt Bauman: la crítica como llamado al cambio”</p>
+                                    <a href="https://www.youtube.com/watch?v=X4YGdqgCWd8" target="_blank"><img src="images/iconos_filosofia_m1-09.jpg" alt="Lectura" width="100%" class="icono-actividad" /></a>
+                                    <p class="text-content">Fuente: Informarn (2009).</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+		</div>
+	</section>	
+                
+    <p class="text-content">&nbsp;</p>
+    <section class="referencia">
+        <div class="container">
+            <h2 class="bold purple titulo" style="padding-left: 30px;">Referencias bibliográficas</h2>
+			<p class="text-content francesa ">Bauman, Z. (2008). <i>Los retos de la educación en la modernidad líquida.</i> Editorial Gedisa. Barcelona. <br>Primera reimpresión.</p>
+			<p class="text-content francesa ">Beuchot, M. (2015). Elementos esenciales de una hermenéutica analógica. <i>Diánoia, 60</i>(74), 127-145. Recuperado de:<br>
+			  <a href="http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-24502015000100006&lng=es&tlng=es.">http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-24502015000100006&lng=es&tlng=es.
+		    </a></p>
+			<p class="text-content francesa ">Beuchot, M. (2015). <i>Tratado de hermenéutica analógica. Hacia un nuevo modelo de interpretación.</i> México: UNAM.
+			</p>
+			<p class="text-content francesa ">
+			Beuchot, M. (UPN Ajusco). (13 de mayo de 2013). Hermenéutica analógica. Mauricio Beuchot Puente [Archivo de video]. Recuperado de <a href="https://www.youtube.com/watch?v=lEtyR9sCXYA">https://www.youtube.com/watch?v=lEtyR9sCXYA </a></p>
+			<p class="text-content francesa ">Bezanilla-Albisua, M. J.; Poblete-Ruiz, M.; Fernández-Nogueira, D.; Arranz-Turnes, S. y Campo-Carrasco, L. (2018). El pensamiento crítico desde la perspectiva de los docentes universitarios. <i>Estudios pedagógicos</i> (Valdivia), 44(1), 89-113. <a href="https://dx.doi.org/10.4067/S0718-07052018000100089">https://dx.doi.org/10.4067/S0718-07052018000100089</a></p>
+            <p class="text-content francesa ">Bourdieu, P. (2005). <i>Las reglas del arte. Génesis y estructura del campo literario</i>. Barcelona, España: Anagrama. </p>
+			<p class="text-content francesa ">Bourdieu, P. (2010). <i>El sentido social del gusto. Elementos para una sociología de la cultura</i>. Argentina: Siglo XXI.
+			</p>
+			<p class="text-content francesa ">Dewey, J. (1920). <i>Reconstruction in Philosophy</i>. New York: Henry Holt and Company.
+			</p>
+			<p class="text-content francesa ">Dickie, G. (1969). Defining Art. American Philosophical Quarterly, 6(3), 253-256. Recuperado de <a href="http://www.jstor.org/stable/20009315">http://www.jstor.org/stable/20009315 </a></p>
+			<p class="text-content francesa ">Dickie, G. (1996). <i>The Century of Taste. The Philosophical Odyssey or Taste in the Eighteenth Century</i>. New York, Oxford: Oxford University Press.        
+			</p>
+			<p class="text-content francesa ">Efland, A. (2002). <i>Una historia de la educación del arte</i>. Barcelona: Paidós.
+			</p>
+			<p class="text-content francesa ">Eisner, E. (Elprofeleo). (20 de diciembre de 2012). Elliot Eisner. Qué puede aprender la educación de las artes [Archivo de video]. Recuperado de  <a href="https://www.youtube.com/watch?v=4R6rasalOZ0&app=desktop">https://www.youtube.com/watch?v=4R6rasalOZ0&app=desktop</a></p>
+			<p class="text-content francesa ">Giroux, H. (2004). <i>Teoría y resistencia en educación. Una pedagogía para la oposición</i>. México: Siglo XXI. </p>
+			<p class="text-content francesa ">Guyer, P. (2000). <i>Critique of the Power of Judgment</i>. Cambridge University Press.</p>
+			<p class="text-content francesa ">Leal, C. (enero-abril, 2003). ¿Qué es crítico? Apuntes para la historia de un término. <i>Revista Mexicana de Investigación Educativa, 8</i>(17), 245-261. Recuperado de <a href="http://www.redalyc.org/pdf/140/14001714.pd">http://www.redalyc.org/pdf/140/14001714.pd</a>f.</p>
+			<p class="text-content francesa ">Marías, J. (1967). <i>History of Philosophy</i>. New York: Dover Publications, Inc.</p>
+			<p class="text-content francesa ">Muñoz, B. (2004). Escuela de Frankfurt. Universidad Carlos III de Madrid. Recuperado de: <a href="http://www.archivochile.com/Ideas_Autores/esc_frankf_s/esc_frankf_sobre0007.pdf">http://www.archivochile.com/Ideas_Autores/esc_frankf_s/esc_frankf_sobre0007.pdf.</a></p>
+			<p class="text-content francesa ">Palacio del, A. (abril, 2005) La escuela de Frankfurt: El destino trágico de la razón. <i>Casa del tiempo</i>. Recuperado de <a href="http://www.uam.mx/difusion/revista/abr2005/palacio.html">http://www.uam.mx/difusion/revista/abr2005/palacio.html</a></p>
+			<p class="text-content francesa ">Palacios, L. (2005). <i>Arte: asignatura pendiente. Un acercamiento a la educación artística en primaria</i>. Universidad Autónoma de la Ciudad de México. </p>
+			<p class="text-content francesa ">Paul, R. y Elder, L. (2006) ¿Por qué pensamiento crítico? <i>Eduteka</i>. Recuperado de<a href="http://eduteka.icesi.edu.co/articulos/por-que-pensamiento-critico"> http://eduteka.icesi.edu.co/articulos/por-que-pensamiento-critico</a></p>
+			<p class="text-content francesa">Sacristán, J. (2003). <i>El alumno como invención</i>. Madrid: Morata.       </p>
+			<p class="text-content francesa ">Sánchez, D. R. et al. (2007). La teoría de los campos de Bourdieu, como esquema teórico de análisis del proceso de graduación en posgrado. <i>Revista electrónica de investigación educativa</i>. Recuperado de <a href="https://redie.uabc.mx/redie/article/view/161/1032">https://redie.uabc.mx/redie/article/view/161/1032</a></p>
+			<p class="text-content francesa ">Schiller, F. (1952).<i> Cartas sobre la educación estética del hombre</i>. México.</p>
+			<p class="text-content francesa ">Villoro, L. (2013). <i>El pensamiento moderno. Filosofía del Renacimiento</i>. México: FCE. </p>
+        </div>
+    </section>    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- jQuery library -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/text-accordion.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/autores.js"></script>
+    <!-- jquery smooth-scroll -->
+
+    <script src="js/nagivation-bars.js"></script>
+    <script src="js/dropdown-js.js"></script>
+
+    <script>
+        $(window).resize(function() {
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+        });
+
+        jQuery(document).ready(function($) {
+            $('[data-anchor]').click(function() {
+                var target = $($(this).data('anchor'));
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+
+        //para detectar móviles
+        setTimeout(function() {
+            var isMobile = {
+                Android: function() {
+                    return navigator.userAgent.match(/Android/i);
+                },
+                BlackBerry: function() {
+                    return navigator.userAgent.match(/BlackBerry/i);
+                },
+                iOS: function() {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+                },
+                Opera: function() {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                },
+                Windows: function() {
+                    return navigator.userAgent.match(/IEMobile/i);
+                },
+                any: function() {
+                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                }
+            };
+
+            if (!isMobile.any()) {
+                var css = document.createElement('link');
+                css.type = "text/css";
+                css.rel = "stylesheet";
+
+
+                var h = document.getElementsByTagName('head')[0];
+                h.appendChild(css);
+            }
+
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+        }, 250);
+    </script>
+
+</body>
+</html>

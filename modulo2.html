@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia crítica de la educación de las artes</title>
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconos.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts-miranda.css">
+    <link rel="stylesheet" href="css/dropdown-menu.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/simple-slider.css">
+    <link rel="stylesheet" href="css/text-accordion.css">
+    <link rel="stylesheet" href="css/tabs2.css">
+
+    <style>
+        .imgder {
+            float: right;
+            /*para ponerlo a la derecha */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgizq {
+            float: left;
+            /*para ponerlo a la izquierda */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgcenter {
+            float: center;
+            /*para ponerlo al centro */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgizq img,
+        .imgder img,
+        .imgcenter img {
+            display: block;
+            margin: 0 auto;
+            /* centrar imagen */
+        }
+
+        .imgizq p,
+        .imgder,
+        .imgcenter p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .mi-iframe {
+            width: 100%;
+            height: 1200px;
+        }
+
+        .mi-iframet1 {
+            width: 225px;
+            height: 730px;
+        }
+
+        .mi-iframet2 {
+            width: 100%;
+            height: 965px;
+        }
+
+        .mi-iframet3 {
+            width: 100%;
+            height: 770px;
+        }
+
+        .Header1 {
+            width: 100%;
+            height: 600px
+        }
+
+        .Header2 {
+            width: 100%;
+            height: 450px
+        }
+
+        /* CSS pantallas de 320px o superior */
+
+        @media (min-width: 320px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2700px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 890px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1265px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+
+
+        }
+
+        @media (min-width: 360px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2900px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 765px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 990px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 560px;
+            }
+        }
+
+        @media (min-width: 375px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3000px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 775px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1100px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+
+
+        }
+
+        @media (min-width: 411px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3100px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+        }
+
+        @media (min-width: 411px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3200px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1030px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+        }
+
+        /* CSS pantalla 768px o superior */
+        @media (min-width: 768px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 1000px;
+            }
+
+            .biografia1 {
+                display: inline-block;
+            }
+
+            .biografia2 {
+                display: none;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 225px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header2 {
+                display: Inline-block;
+            }
+
+            .Header1 {
+                display: none;
+            }
+        }
+
+        @media (min-width: 1400px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 1125px;
+            }
+
+            .biografia1 {
+                display: inline-block;
+            }
+
+            .biografia2 {
+                display: none;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header1 {
+                display: Inline-block;
+            }
+
+            .Header2 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 600px) and (min-width: 415px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2900px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header2 {
+                display: Inline-block;
+            }
+
+            .Header1 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top navbar-dark bg-navegador navbar-codaes">
+        <div class="contenedor-idiomas">
+            <div class="col-sm-6 col-xs-6 identidad-div">
+                <div class="navbar-brand logo-codaes codaes-logo">
+                    <p class="Text-title white bold" id="Titulo-navbar">Historia crítica de la educación de las artes</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+
+            </div>
+            <div id="dropdown" class="dropdown col-xs-2">
+                <button onclick="myFunction()" class="dropbtn fa fa-align-justify" style="font-size:30px;"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a class="titulo-universidad text-center" href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                        Universidad Veracruzana </a>
+
+
+
+                    <a href="#contenido">Contenido:</a>
+
+                    <a href="rutat.html" class="submenu"><i class="icon-contenido icon-menu"></i>Ruta académica</a>
+                    <a href="modulo1.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 1</a>
+                    <a href="modulo2.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 2</a>
+                    <a href="modulo3.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 3</a>
+                    <a href="modulo3.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 4</a>
+
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-4 container-banderas">
+                <div class="col-md-12contenido-uni">
+                    <a href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                        <img src="images/pleca_uv.png" width="85%"> </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--  Encabezado -->
+
+    <!-- left bar-->
+    <ul id="social_side_links">
+        <a class="enlaces-izq" href="index.html">
+            <li class="field-tip" id="icon-home">
+                <i class="icon-home left-items purple"></i>
+                <span class="tip-content">Inicio</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="rutat.html">
+            <li class="field-tip black" id="icon-ruta">
+                <i class="icon-lecturaTecnologia left-items purple" style="margin-bottom: 13% !important; font-size: 252%;"></i>
+                <span class="tip-content">Ruta académica</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo1.html">
+            <li class="field-tip">
+                <p class="left-items purple">1</p>
+                <span class="tip-content">Módulo 1</span>
+            </li>
+        </a>
+
+        <a class="enlaces-izq" href="#">
+            <li class="field-tip">
+                <p class="left-items tema-selected white">2</p>
+                <span class="tip-content">Módulo 2</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo3.html">
+            <li class="field-tip">
+                <p class="left-items purple">3</p>
+                <span class="tip-content">Módulo 3</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo4.html">
+            <li class="field-tip">
+                <p class="left-items purple">4</p>
+                <span class="tip-content">Módulo 4</span>
+            </li>
+        </a>
+
+
+    </ul>
+
+    <!-- right bar -->
+
+    <header class="hero" id="hero">
+        <div class="video-overlay" id="video-o"></div>
+        <div class="video-wrap" id="video-bg">
+            <video controls id="video-1" class="bg-video">
+                <source src="images/m2_historia_1_1.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </header>
+
+    <section class="title">
+        <div class="container">
+            <h1 class="bold purple titulo justify">Módulo 2. Pierre Bourdieu: <br>la teoría de los campos sociales</h1>
+
+            <p class="text-content purple" style="font-family: Lato; font-weight:bolder;">Objetivo de aprendizaje </p>
+            <p class="text-content">Comprender la arquitectónica del pensamiento de Pierre Bourdieu y su vínculo con la educación y el campo del arte.</p>
+            <p class="text-content black bold">&nbsp;</p>
+            <p class="text-content purple bold">Contenido del módulo</p>
+            <ul class="text-content">
+                <li>Tema 1. Teoría de la reproducción.</li>
+                <li>Tema 2. Campo, capital y <i>habitus</i>.</li>
+            </ul>
+            <p class="text-content purple bold">&nbsp;</p>
+        </div>
+    </section>
+
+    <section class="cita-text" style="background: #80c3b2;">
+        <div class="container">
+            <div class="separador">
+                <p class="text-content">&nbsp;</p>
+                <p class="white justify text-content" style="font-size: 25px;">
+                    “La televisión goza de un monopolio de facto sobre lo que entra en la cabeza de una parte significativa de la población y lo que piensan” <i>Pierre Bourdieu</i>
+                </p>
+                <p class="text-content">&nbsp;</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor-tema1">
+        <div class="container">
+            <h2 class="bold purple titulo">Tema 1. Teoría de la reproducción</h2>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content justify">La teoría de la reproducción es un conjunto de teorías cuyo propósito es demostrar que la escolarización forma parte del funcionamiento en la sociedad capitalista. Es decir, cuál era el papel que la escuela jugaba en la reproducción social (Hirsch y Rio, 2015)</p>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content"><b>Indicaciones:</b> Haz clic en las imágenes para revisar las aportaciones de cada filósofo. </p>
+            
+            <div class="col-lg-12 col-sm-12 col-md-12 fotos-autores text-center">
+                <img id="autor1" onclick="selectA1()" src="images/Althusser_m2_t1-01.jpg" alt="Althusser" class="img-selected img-rounded img-autor" data-toggle="modal" data-target="#modalAutor1">
+                <img id="autor2" onclick="selectA2()" src="images/Bourdieu_m2_t1-04.jpg" alt="Bourdieu" class="img-selected img-rounded img-autor" data-toggle="modal" data-target="#modalAutor2">
+            </div>
+            <div class="col-md-12 col-sm-12 col-md-12 separadorDiv">
+                <hr class="separadorAutores center-block">
+            </div>
+            <div class="col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-2">
+                <i class="fa icono-contenido fa-angle-left autor-arrows" id="left-arrow" onclick="sliderIzquierda();"></i>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 text-center hidden" id="autorName1">
+                <p class="text-content black bold" data-toggle="modal" data-target="#modalAutor1" style="cursor:pointer;">Althusser</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 text-center hidden" id="autorName2">
+                <p class="text-content black bold" data-toggle="modal" data-target="#modalAutor2" style="cursor:pointer;">Bourdieu</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+                <i class="fa icono-contenido fa-angle-right autor-arrows" id="right-arrow" onclick="sliderDerecha();"></i>
+            </div>
+        </div>
+    </section>
+    <p class="text-content">&nbsp;</p>
+    <p class="text-content">&nbsp;</p>
+    <p class="text-content">&nbsp;</p>
+
+    <section id="tabs-dynamic" class="wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="container">
+            <h2 class="bold purple titulo" style="font-family: Lato;">Tema 2. Campo, capital y <i>habitus</i></h2>
+
+            <div class="imgcenter">
+                <img class="esquema" alt="Esquema de Bourdieu" src="images/esquema_bourdieu-01.jpg">
+            </div>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content">&nbsp;</p>
+            <ul class="tabs tabs-dynamic text-content black bold">
+                <li class="active"><i class="icon-textosAcademicos icono-tabs"></i><br class="visible-xs">Campo</li>
+                <li><i class="icon-textosAcademicos icono-tabs"></i><br class="visible-xs">Capital</li>
+                <li><i class="icon-textosAcademicos icono-tabs"></i><br class="visible-xs"><i>Habitus</i></li>
+            </ul>
+            <ul class="tab__content">
+                <li class="active">
+                    <div class="content__wrapper text-content">
+                        <p class="text-content">Relaciones de fuerza entre agentes o instituciones que luchan y buscan dominar y tener el monopolio de un tipo de capital eficiente (Sánchez y otros, 2007). Es un sistema estructurado de posiciones sociales que confieren a sus ocupantes una determinada situación (Aquiles, 2016).
+                            En otras palabras se concibe como una “red de relaciones objetivas entre posiciones sociales, históricamente constituidas alrededor de una actividad específica y de un bien, cuya acumulación despierta interés y es objeto de lucha. Los campos son microcosmos sociales relativamente autónomos que operan como mercados, donde se busca maximizar los beneficios específicos y donde las estrategias generales de optimización tienen formas, contenidos y puntos de aplicación específicos” (Diccionario iberoaméricano de filosofía de la educación, s/p).
+                            Es en lo campos donde se expresan las luchas de clases. Cada campo está constituido por una red de relaciones objetivas entre diferentes posiciones (Aquiles, 2017).
+                            “Los campos constan de productores, consumidores, distribuidores de un bien
+                            e instancias legitimadoras y reguladoras, cuyas características, reglas y conformación varían de acuerdo con su historia y relación con el campo de poder.” (Sánchez, 2007, p. 6)
+                        </p>
+                        <img src="images/campo.png" class="imgpestañas" style="width: 40%; float: right; ">
+                        <p class="text-content">Si tomaramos de ejemplo la incorporación de estudiantes a un posgrado veríamos entonces que el campo en ese contexto hace referencia a un campo académico visualizado como un espacio complejo compuesto por productores (investigadores y académicos), distribuidores (profesores e instancias de difusión), consumidores (estudiantes, investigadores y estudiosos) e instancias legitimadoras y distribuidoras del bien (universidades e institutos de investigación).
+                            El ingreso a este campo estará regulado a través de reglas impuestas por los sujetos dominantes, que tratarán de determinar la posesión de capital y habitus imperante (Sánchez, 2007).
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="content__wrapper text-content">
+                        <p>El capital, concebido dentro del campo, “se instituye como un recurso necesario y eficaz para la producción y reproducción de las condiciones materiales y simbólicas de vida propias de dicho campo. En consecuencia, existen diferentes especies de capital (social, cultural, científico, escolar, simbólico, político, religioso)” (Bourdieu, 1981, p. 122 en Diccionario Iberoamericano de filosofía de la educación).
+                            El capital económico, por ejemplo, se encuentra constituido por los recursos monetarios y financieros. El capital social, lo conforman los recursos que pueden ser movilizados por los actores en función de la pertinencia a redes sociales y organizaciones. El capital cultural se refiere a las disposiciones y hábitos adquiridos en el periodo de socialización (Diccionario Iberoamericano de filosofía de la educación, s/p).
+                            Dos tipos de capital cultural maneja el autor: el capital a través de la educación y el conocimiento y el capital simbólico referido a las categorías de percepción y juicio que legitima los valores y estilos culturales, morales y artísticos (Aquiles, 2017)
+                        </p>
+                        <img src="images/capital.png" class="imgpestañas" style="width: 60%; float: right; ">
+                        <p class="text-content">Siguiendo el ejemplo de los estudiantes de posgrado. El capital cultural, en ese campo específico, hace referencia al conjunto de conocimientos y saberes que posee un sujeto. Este capital se distribuye de forma desemejante y no se adquiere de manera inmediata, lo que coloca a sus poseedores en una posición ventajosa respecto a aquellos que no lo tienen o tardarán en obtenerlo (Sánchez, 2007). “Mientras mayor sea el volumen y la legitimidad de su capital cultural, serán considerados como brillantes o capaces y tendrán mayores posibilidades de integración y desarrollo. Cuando la posesión de capital cultural es menor pueden presentar mayores dificultades en su formación, pues carecen del capital necesario para integrarse y participar en los juegos del campo.
+                            En consecuencia, el ingreso al posgrado está determinado por la posesión de capital cultural incorporado e institucionalizado, y la propensión a leer libros (…) Además de estos elementos, hay otro que no siempre se menciona de forma explícita, pero que constituye un elemento de selección: el habitus.” (Sánchez, 2007, p. 8)
+
+                        </p>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="content__wrapper text-content">
+                        <p>Bourdieu entiende por habitus al “conjunto de esquemas generativos a partir de los cuales los sujetos perciben el mundo y actúan en él. Estos esquemas generativos están socialmente estructurados: han sido conformados a lo largo de la historia de cada sujeto y suponen la interiorización de la estructura social, del campo concreto de relaciones sociales en el que el agente social se ha conformado como tal. Pero al mismo tiempo son estructurantes: son las estructuras a partir de las cuales se producen los pensamientos, percepciones y acciones del agente.” (Martín, Diccionario Crítico de Ciencias Sociales)
+                            “El habitus existe en la cabeza de los actores, en sus prácticas sociales, en la interacción, en la conducta y en la manera de hablar y de hacer las cosas.” (Aquiles, 2017). En ese sentido, el habitus concede al sujeto las aptitudes y valores necesarios para integrarse a un grupo, proporciona la habilidad para moverse, actuar y orientarse en una posición o situación, sin que haya sido necesario establecer un plan, pues son el resultado de una serie de disposiciones incorporadas en el curso de una trayectoria (Gutiérrez, 1997, en Sánchez, 2007).
+                        </p>
+                        <img src="images/habitus.png" class="imgpestañas" style="width: 40%; float: right; ">
+                        <p class="text-content">En este ejemplo de la incorporación al posgrado se podría traducir el habitus como las habilidades y disposiciones ideales para cursarlo. Por ejemplo: saber leer, analizar, investigar, escribir, etc. Estas destrezas o habilidades son desarrolladas por los estudiantes a los largo de su trayectoria y son parte o consecuencia de su habitus.
+
+                            Por el contrario, cuando los estudiantes carecen de estas características y sus habitus son diferentes tendrán mayores dificultades para integrarse o realizar las actividades académicas. Esto puede representar diferentes niveles de competencia ante aquellos que las han desarrollado desde niños.
+
+                            Adquirirlas es posible y Bourdieu llama a este proceso conversión del habitus, actividad que supone interés, tiempo y apoyo de tutores (Bourdieu y Passeron, 1998). Sin embargo, esto consume esfuerzos y puede repercutir en una extensión de los tiempos de formación o en la deserción, por ejemplo, si las dificultades para el estudiante se incrementan.
+
+                            (Sánchez, 2007)
+
+                        </p>
+
+                    </div>
+                </li>
+            </ul>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content">&nbsp;</p>
+            
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter">Observa el siguiente video donde el filósofo Bourdieu expone su teoría de la reproducción en la escuela. ¿Cuál es el papel de la escuela en el sistema actual?
+                </b> </p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="imgcenter">
+                        <div class="col-lg-12">
+                            <p class="text-content">“La escuela según Pierre Bourdieu - parte 1”</p>
+                            <a href="https://www.youtube.com/watch?v=3mChkak7_3A" target="_blank"><img src="images/iconos_filosofia_m1-09.jpg" alt="Lectura" width="100%" class="icono-actividad" /></a>
+                            <p class="text-content">Fuente: Grandes Pensadores del Siglo XX, <br>
+                            Canal Encuentro (s.f.).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p class="text-content">&nbsp;</p>
+    <section class="referencia">
+        <div class="container">
+            <h2 class="bold purple titulo" style="padding-left: 30px;">Referencias bibliográficas</h2>
+            <p class="text-content francesa">Chihu, A. A. (2016). La teoría de los campos en Pierre Bourdieu. Revista <i>Polis</i>, 1(2), 179-200. Recuperado de: <a href="https://polismexico.izt.uam.mx/index.php/rp/article/view/345">https://polismexico.izt.uam.mx/index.php/rp/article/view/345</a></p>
+            <p class="text-content francesa">Blanco, E. (julio-septiembre, 2017). Teoría de la reproducción y desigualdad educativa en México: evidencia para el nivel primario. <i>Revista mexicana de investigación educativa, 22</i>(74), pp. 751-781. Recuperado de: <a href="http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-66662017000300751&lng=es&tlng=es.">http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-66662017000300751&lng=es&tlng=es.</a></p>
+            <p class="text-content francesa">Hirsch, D. y Rio, V. (2015). Teorías de la reproducción y teorías de la resistencia: una revisión del debate pedagógico desde la perspectiva materialista. <i>Foro de Educación, 13</i>(18), pp. 69-91. Recuperado de: doi: <a href="http://dx.doi.org/10.14516/fde.2015.013.018.004">http://dx.doi.org/10.14516/fde.2015.013.018.004 </a></p>
+            <p class="text-content francesa">Programa Grandes Pensadores del Siglo XX [Eusebio Nájera Martínez]. (2009, mayo 13). La escuela según Pierre Bourdieu-parte 1. [Archivo de video]. Recuperado de: <a href="https://www.youtube.com/watch?v=3mChkak7_3A">https://www.youtube.com/watch?v=3mChkak7_3A</a></p>
+            <p class="text-content francesa">	Salmerón, A. M., Trujillo, B. F., Rodríguez , A. y Torre, M. (2016). Bourdieu, Pierre. Diccionario Iberoamericano de Filosofía de la Educación. México: FCE. Recuperado de: <a href="https://www.fondodeculturaeconomica.com/dife/definicion.aspx?l=B&id=32">https://www.fondodeculturaeconomica.com/dife/definicion.aspx?l=B&id=32</a></p>
+            <p class="text-content francesa"> Sánchez Dromundo, R. A. (2007). La teoría de los campos de Bourdieu, como esquema teórico de análisis del proceso de graduación en posgrado. Revista Electrónica de Investigación Educativa, 9 (1). Recuperado de:<a href="http://redie.uabc.mx/vol9no1/contenido/dromundo.html"> http://redie.uabc.mx/vol9no1/contenido/dromundo.html</a></p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div id="modalAutor1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div class="col-md-12 text-center row">
+                            <div class="col-md-12" style="margin-top:30px;">
+                                <img src="images/Althusser_m2_t1-01.jpg" alt="Avatar" class="img-selected img-autor">
+                            </div>
+                            <div class="col-md-12" style="margin-top:30px;">
+                                <h3 class="bold modal-title">Althusser</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body modal-autor">
+                        <p class="modal-text" style="text-align:justify">
+                            Una sociedad “depende de un modo de producción dominante, que requiere, a su vez, reproducir las condiciones que
+                            posibilitan esa producción. Es decir, precisa reproducir las fuerzas productivas y las relaciones de producción” (Hirsch y Rio, 2015, p. 71).
+                            <br></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal síntesis autor 2 -->
+    <div class="container">
+        <div id="modalAutor2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div class="col-md-12 text-center row">
+                            <div class="col-md-12" style="margin-top:30px;">
+                                <img src="images/Bourdieu_m2_t1-04.jpg" alt="Avatar" class="img-selected img-autor">
+                            </div>
+                            <div class="col-md-12" style="margin-top:30px;">
+                                <h3 class="bold modal-title">Bourdieu</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body modal-autor">
+                        <p class="modal-text" style="text-align:justify">
+                            La jerarquización que la escuela hace de los desempeños individuales se basa en criterios que privilegian sistemáticamente a las clases dominantes (Blanco, 2017).
+                            <br></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- jQuery library -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/text-accordion.js"></script>
+    <script src="js/tabs2.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/autores.js"></script>
+    <!-- jquery smooth-scroll -->
+
+    <script src="js/nagivation-bars.js"></script>
+    <script src="js/dropdown-js.js"></script>
+
+    <script>
+        $(window).resize(function() {
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+        });
+
+        jQuery(document).ready(function($) {
+            $('[data-anchor]').click(function() {
+                var target = $($(this).data('anchor'));
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+
+        //para detectar móviles
+        setTimeout(function() {
+            var isMobile = {
+                Android: function() {
+                    return navigator.userAgent.match(/Android/i);
+                },
+                BlackBerry: function() {
+                    return navigator.userAgent.match(/BlackBerry/i);
+                },
+                iOS: function() {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+                },
+                Opera: function() {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                },
+                Windows: function() {
+                    return navigator.userAgent.match(/IEMobile/i);
+                },
+                any: function() {
+                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                }
+            };
+
+            if (!isMobile.any()) {
+                var css = document.createElement('link');
+                css.type = "text/css";
+                css.rel = "stylesheet";
+
+
+                var h = document.getElementsByTagName('head')[0];
+                h.appendChild(css);
+            }
+
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+        }, 250);
+    </script>
+
+</body>
+
+</html>

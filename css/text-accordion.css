@@ -1,0 +1,111 @@
+@media all and (min-width: 580px) and (max-width: 767px) 
+{
+  .doble {
+    height: 66px !important; }
+    .doble span {
+      height: 66px !important;
+      line-height: 28px !important; } 
+	  }
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  height: 38px;
+  display: flex; }
+ 
+  .accordion span {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ccc; }
+
+  .accordion .plus,
+  .accordion .minus {
+    background-color: #5c164a;
+    color: white;
+    width: 38px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; }
+
+  .accordion .minus {
+    display: none; }
+
+  .accordion .text {
+    width: 100%;
+	background-color: #ffffff;/*blanco*/
+    border: .5px solid #5c164a;
+    color: black;
+    padding: 0 15px; }
+
+  .accordion.active .plus {
+    display: none; }
+
+  .accordion.active .minus {
+    display: block; }
+
+.panel {
+  margin-bottom: 0;
+  margin-top: 0;
+  border: .5px solid #5c164a;
+  color: black;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
+  .panel .text-content {
+    margin: 2% 4% 2% 4%; }
+	
+.accordionazul {
+  cursor: pointer;
+  width: 100%;
+  height: 38px;
+  display: flex; }
+
+  .accordionazul span {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ccc;
+	 background-color:white; }
+
+  .accordionazul .plusazul, .accordionazul .minusazul {
+    background-color: #22549b;
+    color: white;
+    width: 38px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; }
+
+  .accordionazul .minusazul {
+    display: none; }
+ 
+  .accordionazul .textazul {
+    width: 100%;
+    background-color: #ffffff;/*blanco*/
+    border: .5px solid #22549b;
+    color: black;
+    padding: 0 15px; }
+
+  .accordionazul.active .plusazul {
+    display: none; }
+
+  .accordionazul.active .minusazul {
+    display: block; }
+
+.panelazul {
+  margin-bottom: 0;
+  margin-top: 0;
+  border: .5px solid #22549b;
+  color: black;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; 
+   background-color:white;}
+
+  .panelazul .text-contentazul {
+    margin: 2% 4% 2% 4%; }
+	
+
+/*# sourceMappingURL=text-accordion.css.map */

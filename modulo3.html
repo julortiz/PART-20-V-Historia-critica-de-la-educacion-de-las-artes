@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="">
+<head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia crítica de la educación de las artes</title>
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconos.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts-miranda.css">
+    <link rel="stylesheet" href="css/dropdown-menu.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/simple-slider.css">
+    <link rel="stylesheet" href="css/text-accordion.css">
+    <link rel="stylesheet" href="css/tabs2.css">
+
+    <style>
+        .imgder {
+            float: right;
+            /*para ponerlo a la derecha */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgizq {
+            float: left;
+            /*para ponerlo a la izquierda */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgcenter {
+            float: center;
+            /*para ponerlo al centro */
+            margin: 20px;
+            /* un margen cualquiera */
+        }
+
+        .imgizq img,
+        .imgder img,
+        .imgcenter img {
+            display: block;
+            margin: 0 auto;
+            /* centrar imagen */
+        }
+
+        .imgizq p,
+        .imgder,
+        .imgcenter p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .mi-iframe {
+            width: 100%;
+            height: 1200px;
+        }
+
+        .mi-iframet1 {
+            width: 225px;
+            height: 730px;
+        }
+
+        .mi-iframet2 {
+            width: 100%;
+            height: 965px;
+        }
+
+        .mi-iframet3 {
+            width: 100%;
+            height: 770px;
+        }
+
+        .Header1 {
+            width: 100%;
+            height: 600px
+        }
+
+        .Header2 {
+            width: 100%;
+            height: 450px
+        }
+
+        /* CSS pantallas de 320px o superior */
+
+        @media (min-width: 320px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2700px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 890px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1265px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+
+
+        }
+
+        @media (min-width: 360px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2900px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 765px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 990px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 560px;
+            }
+        }
+
+        @media (min-width: 375px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3000px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 775px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1100px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+
+
+        }
+
+        @media (min-width: 411px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3100px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+        }
+
+        @media (min-width: 411px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 3200px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 1030px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 575px;
+            }
+        }
+
+        /* CSS pantalla 768px o superior */
+        @media (min-width: 768px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 1000px;
+            }
+
+            .biografia1 {
+                display: inline-block;
+            }
+
+            .biografia2 {
+                display: none;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 225px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header2 {
+                display: Inline-block;
+            }
+
+            .Header1 {
+                display: none;
+            }
+        }
+
+        @media (min-width: 1400px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 1125px;
+            }
+
+            .biografia1 {
+                display: inline-block;
+            }
+
+            .biografia2 {
+                display: none;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header1 {
+                display: Inline-block;
+            }
+
+            .Header2 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 600px) and (min-width: 415px) {
+
+            .mi-iframe {
+                width: 100%;
+                height: 2900px;
+            }
+
+            .biografia1 {
+                display: none;
+            }
+
+            .biografia2 {
+                display: inline-block;
+            }
+
+            .mi-iframet1 {
+                width: 100%;
+                height: 730px;
+            }
+
+            .mi-iframet2 {
+                width: 100%;
+                height: 965px;
+            }
+
+            .mi-iframet3 {
+                width: 100%;
+                height: 770px;
+            }
+
+            .Header2 {
+                display: Inline-block;
+            }
+
+            .Header1 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top navbar-dark bg-navegador navbar-codaes">
+        <div class="contenedor-idiomas">
+            <div class="col-sm-6 col-xs-6 identidad-div">
+                <div class="navbar-brand logo-codaes codaes-logo">
+                    <p class="Text-title white bold" id="Titulo-navbar">Historia crítica de la educación de las artes</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+
+            </div>
+            <div id="dropdown" class="dropdown col-xs-2">
+                <button onclick="myFunction()" class="dropbtn fa fa-align-justify" style="font-size:30px;"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a class="titulo-universidad text-center" href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                        Universidad Veracruzana </a>
+
+                    
+
+                    <a href="#contenido">Contenido:</a>
+                    <a href="rutat.html" class="submenu"><i class="icon-contenido icon-menu"></i>Ruta académica</a>
+                    <a href="modulo1.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 1</a>
+                    <a href="modulo2.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 2</a>
+                    <a href="modulo3.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 3</a>
+                    <a href="modulo3.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 4</a>
+
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-4 container-banderas">
+                <div class="col-md-12contenido-uni">
+                    <a href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                        <img src="images/pleca_uv.png" width="85%"> </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--  Encabezado -->
+
+    <!-- left bar-->
+    <ul id="social_side_links">
+        <a class="enlaces-izq" href="index.html">
+            <li class="field-tip" id="icon-home">
+                <i class="icon-home left-items purple"></i>
+                <span class="tip-content">Inicio</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="rutat.html">
+            <li class="field-tip black" id="icon-ruta">
+                <i class="icon-lecturaTecnologia left-items purple" style="margin-bottom: 13% !important; font-size: 252%;"></i>
+                <span class="tip-content">Ruta académica</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo1.html">
+            <li class="field-tip">
+                <p class="left-items purple">1</p>
+                <span class="tip-content">Módulo 1</span>
+            </li>
+        </a>
+
+        <a class="enlaces-izq" href="modulo2.html">
+            <li class="field-tip">
+                <p class="left-items purple">2</p>
+                <span class="tip-content">Módulo 2</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="#">
+            <li class="field-tip">
+                <p class="left-items tema-selected white">3</p>
+                <span class="tip-content">Módulo 3</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo4.html">
+            <li class="field-tip">
+                <p class="left-items purple">4</p>
+                <span class="tip-content">Módulo 4</span>
+            </li>
+        </a>
+
+
+    </ul>
+
+    <!-- right bar -->
+
+    <header class="hero" id="hero">
+        <div class="video-overlay" id="video-o"></div>
+        <div class="video-wrap" id="video-bg">
+            <video controls id="video-1" class="bg-video">
+                <source src="images/m3_historia_1.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </header>
+    <section class="title">
+        <div class="container">
+            <h1 class="bold purple titulo">Módulo 3. La filosofía y sociología en la conformación epistémica de una educación de las artes</h1>
+
+            <p class="text-content purple" style="font-family: Lato; font-weight:bolder;">Objetivo de aprendizaje </p>
+            <p class="text-content">Explicar los aportes de la sociología y la filosofía crítica para la construcción de la imagen del pensamiento educativo contemporáneo dentro del campo de las artes.</p>
+            <p class="text-content black bold">&nbsp;</p>
+            <p class="text-content purple bold">Contenido del módulo</p>
+            <ul class="text-content">
+                <li>Tema 1. Michel Foucault.</li>
+                <li>Tema 2. Immanuel Kant y la crítica del juicio.</li>
+            </ul>
+            <p class="text-content purple bold">&nbsp;</p>
+        </div>
+    </section>
+    
+    <section class="cita-text" style="background-color: #47719e;">
+        <div class="container">
+            <div class="separador">
+                
+                <p class="text-content">&nbsp;</p>
+                <p class="white justify text-content" style="font-size: 25px;">
+                    El saber es el único espacio de libertad del ser»<br> <i>Michel Foucault</i>
+                </p>
+                <p class="text-content">&nbsp;</p>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="contenedor-tema1">
+        <div class="container">
+            <h2 class="bold purple titulo">Tema 1. Michel Foucault</h2>
+            <p class="text-content justify">Michel Foucault fue un filósofo francés nacido en 1926. En sus obras trata principalmente el tema del poder y rompió con las concepciones clásicas del término. Para él, el poder no se localiza en una institución, por lo tanto la “toma de poder” planteada por los marxistas no sería posible. El poder no es considerado como algo que se cede, sino que es una relación de fuerzas, una <i>situación estratégica</i> en una sociedad determinada: el poder, al ser relación, está en todas partes (Círculo Bellas Artes de Madrid, 2004).
+            </p>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter;">Revisa el siguiente esquema que muestra las principales ideas y conceptos en torno a la obra de Michel Foucault.</b></p>
+            <div class="imgcenter">
+            <img class="esquema" alt="Foucault" src="images/esquema_foucault-01.jpg">
+            </div>
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter;">Observa la siguiente entrevista realizada al filosófo Foucault. Identifica los puntos principales de su pensamiento y obra.</b></p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="imgcenter">
+                                <div class="col-lg-12">
+                                    <p class="text-content">“Michel Foucault entrevista en Universidad de Lovaina. 1981”</p>
+                                    <a href="https://www.youtube.com/watch?v=0H2gqpJTu4E
+" target="_blank">
+                                    <img src="images/iconos_filosofia_m1-09.jpg" alt="Lectura" width="100%" class="icono-actividad" /></a>
+                                    <p class="text-content">Fuente: filosofando89.</p>
+                                    
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="contenedor-tema2">
+        <div class="container">
+            <h2 class="bold purple titulo">Tema 2. Immanuel Kant y la crítica del juicio</h2>
+            <p class="text-content justify">Immanuel Kant (1724-1804) fue un filósofo nacido en Kaliningrado (Königsberg), Rusia. Sus principales obras son <i>Crítica de la razón pura, Crítica del juicio, Crítica de la razón práctica, Crítica del juicio</i>. Sus ideas postularon un nuevo tipo de empirismo y de racionalismo llamado idealismo trascendental. Él sostenía que la mente posee la capacidad de formar por sí misma conceptos puros, es decir, conceptos vacíos de contenido empírico (Darnaude, s.f.).</p>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter;">Revisa el esquema de Immanuel Kant donde se muestran los conceptos e ideas de sus principales obras. </b></p>
+            <div class="imgcenter">
+            <img class="imgcenter esquema" src="images/esquema_Kant-01.jpg" alt="Esquema de Kant">
+            </div>
+            <p class="text-content">&nbsp;</p>
+            <p class="text-content bold">Indicaciones: <b class="text-content" style="font-weight: lighter;">Observa el siguiente video e identifica los principales aportes y conceptos del pensamiento de Kant.</b></p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="imgcenter">
+                                <div class="col-lg-12">
+                                    <p class="text-content"> “Filosofía de KANT (Español)”</p>
+                                    <a href="https://www.youtube.com/watch?v=HK6bbWxXUQQ" target="_blank"><img src="images/iconos_filosofia_m1-09.jpg" alt="Lectura" width="100%" class="icono-actividad" /></a>
+                                    <p class="text-content">Fuente: Pineda (2016).</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+    <p class="text-content">&nbsp;</p>
+    <section class="referencia">
+        <div class="container">
+            <h2 class="bold purple titulo" style="padding-left: 30px;">Referencias bibliográficas</h2>
+            <p class="text-content francesa">Darnaude, I. (s.f.). Ufología Heterodoxa. El desafío extraterrestre en el siglo XXI. Recuperado de <a href="http://www.ignaciodarnaude.com/index.html">http://www.ignaciodarnaude.com/index.html</a></p>
+            <p class="text-content francesa">Kanz, H. (1993). Immanuel Kant (1724-1804). <i>UNESCO</i>. Recuperado de <a href="http://www.ibe.unesco.org/sites/default/files/kants.pdf">http://www.ibe.unesco.org/sites/default/files/kants.pdf</a></p>
+            <p class="text-content francesa">Pineda, L. [Lluna Pineda]. (7 de abril de 2016 2016). Filosofía de KANT (Español) [Archivo de video]. Recuperado de <a href="https://www.youtube.com/watch?v=HK6bbWxXUQQ">https://www.youtube.com/watch?v=HK6bbWxXUQQ</a></p>
+        </div>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- jQuery library -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/text-accordion.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/autores.js"></script>
+    <!-- jquery smooth-scroll -->
+
+    <script src="js/nagivation-bars.js"></script>
+    <script src="js/dropdown-js.js"></script>
+
+    <script>
+        $(window).resize(function() {
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+        });
+
+        jQuery(document).ready(function($) {
+            $('[data-anchor]').click(function() {
+                var target = $($(this).data('anchor'));
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+
+        //para detectar móviles
+        setTimeout(function() {
+            var isMobile = {
+                Android: function() {
+                    return navigator.userAgent.match(/Android/i);
+                },
+                BlackBerry: function() {
+                    return navigator.userAgent.match(/BlackBerry/i);
+                },
+                iOS: function() {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+                },
+                Opera: function() {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                },
+                Windows: function() {
+                    return navigator.userAgent.match(/IEMobile/i);
+                },
+                any: function() {
+                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                }
+            };
+
+            if (!isMobile.any()) {
+                var css = document.createElement('link');
+                css.type = "text/css";
+                css.rel = "stylesheet";
+
+
+                var h = document.getElementsByTagName('head')[0];
+                h.appendChild(css);
+            }
+
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+        }, 250);
+    </script>   
+    
+    </body>
+</html>

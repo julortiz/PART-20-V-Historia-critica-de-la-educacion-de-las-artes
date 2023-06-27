@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia crítica de la educación de las artes</title>
+
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconos.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts-miranda.css">
+    <link rel="stylesheet" href="css/dropdown-menu.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/simple-slider.css">
+    <link rel="stylesheet" href="css/text-accordion.css">
+    <link rel="stylesheet" href="css/tabs2.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-dark bg-navegador navbar-codaes">
+        <div class="contenedor-idiomas">
+            <div class="col-sm-6 col-xs-6 identidad-div">
+                <div class="navbar-brand logo-codaes codaes-logo">
+                    <p class="Text-title white bold" id="Titulo-navbar">Historia crítica de la educación de las artes</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+
+            </div>
+            <div id="dropdown" class="dropdown col-xs-2">
+                <button onclick="myFunction()" class="dropbtn fa fa-align-justify" style="font-size:30px;"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a class="titulo-universidad text-center" href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                        Universidad Veracruzana </a>
+
+                    
+
+                    
+                    <a href="index.html" class="submenu"><i class="icon-contenido icon-menu"></i>Inicio</a>
+                    <a href="rutat.html" class="submenu"><i class="icon-contenido icon-menu"></i>Ruta académica</a>
+                    <a href="modulo1.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 1</a>
+                    <a href="modulo2.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 2</a>
+                    <a href="modulo3.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 3</a>
+                    <a href="modulo4.html" class="submenu"><i class="icon-contenido icon-menu"></i>Módulo 4</a>
+
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-4 container-banderas">
+                <div class="col-md-12contenido-uni">
+                    <a href="https://www.uv.mx/" target="_blank" alt="Ir a Universidad Veracruzana">
+                        <img src="images/pleca_uv.png" width="85%"> </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- left bar-->  <ul id="social_side_links">
+        <a class="enlaces-izq" href="#">
+            <li class="field-tip white" id="icon-home">
+                <i class="icon-home left-items tema-selected"></i>
+                <span class="tip-content">Inicio</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="rutat.html">
+            <li class="field-tip black" id="icon-ruta">
+                <i class="icon-lecturaTecnologia left-items purple" style="margin-bottom: 13% !important; font-size: 252%;"></i>
+                <span class="tip-content">Ruta académica</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo1.html">
+            <li class="field-tip">
+                <p class="left-items purple">1</p>
+                <span class="tip-content">Módulo 1</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo2.html">
+            <li class="field-tip">
+                <p class="left-items purple " href="#">2</p>
+                <span class="tip-content">Módulo 2</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo3.html">
+            <li class="field-tip">
+                <p class="left-items purple">3</p>
+                <span class="tip-content">Módulo 3</span>
+            </li>
+        </a>
+        <a class="enlaces-izq" href="modulo4.html">
+            <li class="field-tip">
+                <p class="left-items purple">4</p>
+                <span class="tip-content">Módulo 4</span>
+            </li>
+        </a>
+
+    </ul>
+
+    <header class="hero" id="hero">
+        <div class="video-overlay" id="video-o"></div>
+        <div class="video-wrap" id="video-bg">
+            <video controls id="video-1" class="bg-video">
+                <source src="images/index_historia.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </header>
+    <section id="services" class="services">
+        <div class="container menu-items">
+            <!--<div class="row contenedor-menus">-->
+            <div class="col-md-3 col-sm-3 col-xs-3 text-center menu-icon">
+                <div class="service-box" id="serviceDiv" data-anchor="#autores">
+                    <i class="icon-informacion sr-icons" id="icon-informacion"></i>
+                    <h4 class="text-blue accesos-secciones">Información general</h4>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-3 text-center menu-icon" data-anchor="#introduccion">
+                <div class="service-box">
+                    <i class="icon-introduccion sr-icons" id="icon-introduccion"></i>
+                    <h4 class="text-blue accesos-secciones">Introducción</h4>
+                </div>
+            </div>
+            <div class="row col-md-3 col-sm-3 col-xs-3 text-center menu-icon" data-anchor="#contenido">
+                <div class="service-box">
+                    <i class="icon-contenido sr-icons"></i>
+                    <h4 class="text-blue accesos-secciones">Contenido</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3 text-center menu-icon" data-anchor="#evaluacion">
+                <div class="service-box">
+                    <i class="icon-descripcion sr-icons"></i>
+                    <h4 class="text-blue accesos-secciones">Evaluación</h4>
+                </div>
+            </div>
+            <!--</div>-->
+        </div>
+    </section>
+
+    <section class="competencia" id="competencia">
+        <div class="container">
+            <div class="titulo">
+                <div class=" col-md-12 col-sm-12">
+                    <h2 class="titulo white bold" style="padding-left: 0px;">Unidad de competencia</h2>
+                    <p class="text-content justify white">
+                        El estudiante analiza la historia de la educación de las artes desde una perspectiva crítica, visualizando las implicaciones filosóficas, sociológicas y pedagógicas en la construcción social de conceptos y prácticas educativas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="autores" class="autores">
+        <div class="container">
+            <div class="contenido-autores">
+                <div class="col-md-12 col-sm-12 infoContainer">
+                    <i class="icon-informacion icon-Contenido text-black sr-icons" id="iconoGralAutores"></i>
+                    <h2 class="black bold sr-icons" style="display: inline; padding-left: 1%;">Información general</h2>
+                </div>
+
+                <!--<div id="autorInfo1">-->
+                <div class="col-md-12 col-sm-12">
+                    <p class="text-content "><strong>Área curricular a la que pertenece la Experiencia Educativa</strong>: Interdisciplinar obligatoria</p>
+                    <p class="text-content "><strong>Experiencias Educativas antecedentes</strong>: Ninguna </p>
+                    <p class="text-content "><strong>Experiencias Educativas posteriores:</strong> Ninguna </p>
+                    <p class="text-content "><strong>Duración de la Experiencia Educativa: </strong>45 horas</p>
+                    <p class="text-content "><strong>Plan de estudios: </strong>Maestría en Pedagogía de las Artes</p>
+                </div>
+                <p class="text-content">&nbsp;</p>
+                <div class="col-lg-12 col-sm-12 col-md-12 fotos-autores text-center">
+                    <img id="autor1" onclick="selectA1()" src="images/marco.jpg" alt="Avatar" class="img-selected img-rounded img-autor" data-toggle="modal" data-target="#modalAutor1">
+                    <img id="autor2" onclick="selectA2()" src="images/facilitador.jpg" alt="Avatar"
+                     class="img-unselected img-rounded"  data-toggle="modal" data-target="#modalAutor2">
+                    </div>
+                <div class="col-md-12 col-sm-12 col-md-12 separadorDiv">
+                    <hr class="separadorAutores center-block">
+                </div>
+                <div class="col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-2">
+                    <i class="fa icono-contenido fa-angle-left autor-arrows" id="left-arrow"
+                   onclick="sliderIzquierda();"></i>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 text-center hidden" id="autorName1">
+                    <p class="text-content black bold" data-toggle="modal" data-target="#modalAutor1" style="cursor:pointer;">Mtro. Marco Antonio<br> García Martínez</p>
+                    <p class="text-small black" data-toggle="modal" data-target="#modalAutor1" style="cursor:pointer;">Experto en contenido/Facilitador</p>
+                    <p class="text-small purple bold" data-toggle="modal" data-target="#modalAutor1" style="cursor:pointer;">+info</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 text-center hidden" id="autorName2">
+                    <p class="text-content black bold" data-toggle="modal" data-target="#modalAutor2" style="cursor:pointer;"></p>
+                    <p class="text-small black" data-toggle="modal" data-target="#modalAutor2" style="cursor:pointer;">Facilitador</p>
+                    <p class="text-small purple bold" data-toggle="modal" data-target="#modalAutor2" style="cursor:pointer;">+info</p>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-1">
+                     <i class="fa icono-contenido fa-angle-right autor-arrows" id="right-arrow"
+                   onclick="sliderDerecha();"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="descripcion" id="descripcion">
+        <div class="container descripcionContenido">
+            <div class="titulo">
+                <i class="icon-contenido sr-icons icon-Contenido" style="vertical-align: sub; color: ;"></i>
+                <h2 class="descripcionText sr-icons">Descripción</h2>
+            </div>
+
+            <div class="col-md-12">
+                <p class="text-content justify">
+                    La experiencia educativa “Historia crítica de la educación de las artes” tiene una duración de 45 horas. En ella el estudiante considera la historia de la educación de las artes desde una perspectiva crítica, relacionando e integrando aspectos sociales, económicos y discursivos; esta experiencia implica reflexión y análisis del contexto sociocultural, así como de conceptos que en relación a la educación de las artes son fruto de una construcción social.
+
+                </p>
+				<p class="text-content">&nbsp;</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="introduccion" id="introduccion">
+        <div class="container descripcionIntroduccion">
+            <div class="titulo">
+                <p class="text-content">&nbsp;</p>
+                <p class="text-content">&nbsp;</p>
+                <i class="icon-introduccion icon-Contenido sr-icons" id="iconoInformacion"></i>
+                <h2 class="descripcionText sr-icons ">Introducción</h2>
+            </div>
+            <div class="col-md-12">
+                <p class="text-content justify">
+                   En esta experiencia educativa se presta especial atención a procesos cognitivos y metacognitivos que favorecen la transversalización de saberes, el desarrollo y movilización de competencias y por tanto, la formación integral dentro del campo de la educación de las artes, privilegiando un análisis crítico que aborda las implicaciones filosóficas y sociológicas de la historia de la educación de las artes.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contenido" id="contenido">
+        <div class="container descripcionContenido">
+            <div class="titulo">
+                <i class="icon-contenido sr-icons icon-Contenido" style="vertical-align: sub; color: ;"></i>
+                <h2 class="descripcionText sr-icons">Contenido</h2>
+            </div>
+
+            <div class="col-md-12">
+                <p class="text-content purple bold">Módulo 1. Teoría crítica y práctica educativa<br></p>
+                <ul class="text-content">
+                    <li>Tema 1. El estatuto epistemológico de lo crítico: escuela de pensamiento o proceso de crítica.</li>
+                    <li>Tema 2. Escuela de Frankfurt: crítica a la razón instrumental.</li>
+                    <li>Tema 3. Teoría crítica de la educación: Henry Giroux.</li>
+                </ul>
+                <p class="text-content purple bold">Módulo 2. Pierre Bourdieu: la teoría de los campos sociales<br></p>
+                <ul class="text-content">
+                    <li>Tema 1. Teoría de la reproducción.</li>
+                    <li>Tema 2. Campo, capital y habitus.</li>
+                </ul>
+                <p class="text-content purple bold">Módulo 3. La filosofía y sociología en la conformación epistémica de una educación de las artes<br></p>
+                <ul class="text-content">
+                    <li>Tema 1. Michel Foucault.</li>
+                    <li>Tema 2. Immanuel Kant y la crítica del juicio.</li>
+                </ul>
+                <p class="text-content purple bold">Módulo 4. Implicaciones de la modernidad y posmodernidad en la educación de las artes <br></p>
+                <ul class="text-content">
+                    <li>Tema 1. Hermenéutica analógica.</li>
+                    <li>Tema 2. Modernidad líquida.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section class="evaluacion" id="evaluacion">
+        <div class="container descripcionevaluacion">
+            <p class="text-content">&nbsp;</p>
+            <div class="titulo">
+                <i class="icon-contenido sr-icons icon-Contenido" style="vertical-align: sub; color: ;"></i>
+                <h2 class="descripcionText sr-icons">Evaluación</h2>
+            </div>
+
+            <div class="col-md-12">
+                <p class="text-content justify">La evaluación está dividida en <b>Actividades</b>, <b>Foros</b> y <b>Salones interactivos</b> de clases. Las <b>Actividades</b> están integradas por reportes de lectura, reflexiones de video, etcétera; para su desarrollo cuentas con el <b>Catálogo de recursos de enseñanza-aprendizaje</b> y con la <b>Guía para la elaboración de trabajos académicos</b>, ambos documentos te serán de apoyo para que tu quehacer sea eficiente y de acuerdo a tu grado académico. </p>
+                <p class="text-content justify">Los <b>Foros</b> son espacios de discusión e interacción con tu facilitador y compañeros. En esta sección se debatirán temas relevantes de la experiencia educativa (EE). </p>
+                <p class="text-content justify">Los <b>Salones interactivos</b> son sesiones virtuales con tu facilitador. Ahí se explicarán y discutirán los temas de la asignatura en tiempo real; cada quien conectado desde su espacio.</p>
+                <p class="text-content justify">Consulta los instrumentos de evaluación de cada actividad y revisa los criterios para calificar cada una.</p>
+                <p class="text-content justify">Al tratarse de una maestría en línea, el estudiante deberá organizar su tiempo. Esta experiencia Educativa (EE) tiene una duración de 45 horas durante el semestre. 
+                Todas las actividades, foros y salones de clases tienen una fecha y horario de apertura y cierre.</p>
+                <p class="text-content justify">&nbsp;</p>
+				<center>
+                  <p><img src="images/Historia_tabla actividades.png" width="70%" alt=""></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                </center>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+
+    <section class="sectioncontenido" id="sectioncontenido">
+        <div class="container">
+            <div class="col-md-9 contenedor-iDescription text-left">
+                <i class="icon-contenido sr-icons icon-Contenido" style="vertical-align: sub; color: ;"></i>
+                <h2 class="descripcionText sr-icons">Contenido</h2>
+            </div>
+
+            <div class="col-md-12 tarjetas-temas">
+                <div class="col-sm-4 col-xs-4 col-md-3" onclick="location.href ='rutat.html';">
+                    <div class="card slide-up card-tema1">
+                        <div class="image" id="image1"></div>
+                        <div class="caption" id="caption1">
+                            <h4 class="caption-content bold">
+                                Ruta académica
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1 col-md-4" onclick="location.href ='modulo1.html';">
+                    <div class="card slide-up card-tema2">
+                        <div class="image" id="image2"></div>
+                        <div class="caption" id="caption2">
+                            <h4 class="caption-content bold">
+                                Módulo 1
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" onclick="location.href ='modulo2.html';">
+                    <div class="card slide-up card-tema3">
+                        <div class="image" id="image3"></div>
+                        <div id="caption3" class="caption">
+                            <h4 class="caption-content bold"> Módulo 2
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1 col-md-offset-2 col-md-3" onclick="location.href ='modulo3.html';">
+                    <div class="card slide-up card-tema4">
+                        <div class="image" id="image4"></div>
+                        <div class="caption" id="caption4">
+                            <h4 class="caption-content bold">Módulo 3</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1 col-md-offset-2 col-md-3" onclick="location.href ='modulo4.html';">
+                    <div class="card slide-up card-tema4">
+                        <div class="image" id="image5"></div>
+                        <div class="caption" id="caption5">
+                            <h4 class="caption-content bold">Módulo 4</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- Botones temas responsivos -->
+        <div class="botones-temas col-xs-12" style="margin-top:5%;">
+            <div class="col-xs-8 col-xs-offset-2">
+                <button type="button" onclick="location.href='rutat.html'" class="btn btn-secondary bold" style="width:100%;">Ruta académica
+            </button>
+            </div>
+
+            <div class="col-xs-8 col-xs-offset-2" style="margin-top:5%;">
+                <button type="button" onclick="location.href='modulo1'" class="btn btn-secondary bold" style="width:100%;">Módulo 1
+                </button>
+            </div>
+
+            <div class="col-xs-8 col-xs-offset-2" style="margin-top:5%;">
+                <button type="button" onclick="location.href='modulo2.html'" class="btn btn-secondary bold" style="width:100%;">Módulo 2
+                </button>
+            </div>
+
+            <div class="col-xs-8 col-xs-offset-2" style="margin-top:5%;">
+                <button type="button" onclick="location.href='modulo3.html'" class="btn btn-secondary bold" style="width:100%;">Módulo 3
+                </button>
+            </div>
+
+
+
+
+        </div>
+        <!--- Fin botones -->
+    </section>
+
+
+    <div class="container">
+        <div id="modalAutor1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div class="col-md-12 text-center row">
+                            <div class="col-md-12" style="margin-top:30px;">
+                                <img src="images/marco.jpg" alt="Avatar" class="img-selected img-autor">
+                            </div>
+                            <div class="col-md-12" style="margin-top:30px;">
+                                <h3 class="bold modal-title">Mtro. Marco Antonio García Martínez</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body modal-autor">
+                        <p class="modal-text" style="text-align:justify">
+                            Licenciado en Artes Plásticas Opción Gráfica, Subopción Grabado por la Facultad de Artes Plásticas de la Universidad Veracruzana, y Maestro en Educación por la Facultad de Pedagogía. Actualmente es Candidato a Doctor en Filosofía PNPC por el Instituto de Filosofía de la Universidad Veracruzana.
+                            <br></p>
+                        <p class="modal-text" style="text-align:justify">
+                            Se desempeña como académico de la Facultad de Artes Plásticas de la Universidad Veracruzana desde Agosto de 1998, y funge como Tutor Académico desde 2007. Imparte las EE de Mercado del arte, Métodos de investigación, Semiótica, Práctica Bitridimensional y Pedagogía de las artes.
+                            <br></p>
+                        <p class="modal-text" style="text-align:justify">
+                            Entre algunas comisiones académicas se encuentra: Miembro del Consejo de Galería AP de marzo de 2002 a febrero de 2006; Coordinador del Sistema Tutorial de marzo de 2009 a marzo de 2011 y Coordinador de Academia de Artes Visuales de agosto 2011 a agosto 2012.<br></p>
+                        <p class="modal-text" style="text-align:justify">
+                            Desarrolla investigación en las áreas de la hermenéutica, semiótica peirceana, gráfica experimental, arte y diseño curricular.
+                            <br></p>
+                        <p class="modal-text" style="text-align:justify">
+                            Coordinador y coautor de la publicación “Charles Sanders Peirce: arte, creatividad e interpretación”. Editorial de la Universidad Veracruzana. Xalapa, Ver. Indexado en la Web of Science.
+                            <br></p>
+                        <p class="modal-text" style="text-align:justify">
+                            Como creador participa en más de 40 exposiciones colectivas de grabado en México y 3 internacionales. Cuenta con 10 exposiciones individuales de grabado.
+                            <br></p>
+                        <p class="modal-text" style="text-align:justify">
+                            De 2011 a 2015 coordina el Proyecto Académico: “Seminario de Semiótica Peirceana”, en la Facultad de Artes Plásticas. De octubre 2018 a la fecha coordina el «Seminario Interdisciplinario Charles Sanders Peirce».
+                            <br></p>    
+                        <p class="modal-text" style="text-align:justify">
+                            Coordinador del Proyecto de Investigación SIREI UV: «Lógica de la sensación. Epistemología y metodología para la creación artística contemporánea» (agosto 2017-julio 2019).
+                            <br></p>    
+                        <p class="modal-text" style="text-align:justify">
+                            Autor del libro: «Charles Sanders Peirce. Semiótica de la obra de arte». Dictaminado por pares ciegos externos. Editorial de la Universidad Veracruzana.
+                            <br></p>    
+                        <p class="modal-text" style="text-align:justify">
+                            Actualmente miembro de la Federación Latinoamericana de Semiótica.
+                            <br></p>   
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/autores.js"></script>
+    <!-- jquery smooth-scroll -->
+
+    <script src="js/nagivation-bars.js"></script>
+    <script src="js/dropdown-js.js"></script>
+
+    <script>
+        $(window).resize(function() {
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+
+        });
+    </script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('[data-anchor]').click(function() {
+                var target = $($(this).data('anchor'));
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+
+        //para detectar móviles
+        setTimeout(function() {
+            var isMobile = {
+                Android: function() {
+                    return navigator.userAgent.match(/Android/i);
+                },
+                BlackBerry: function() {
+                    return navigator.userAgent.match(/BlackBerry/i);
+                },
+                iOS: function() {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+                },
+                Opera: function() {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                },
+                Windows: function() {
+                    return navigator.userAgent.match(/IEMobile/i);
+                },
+                any: function() {
+                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                }
+            };
+
+            if (!isMobile.any()) {
+                var css = document.createElement('link');
+                css.type = "text/css";
+                css.rel = "stylesheet";
+
+
+                var h = document.getElementsByTagName('head')[0];
+                h.appendChild(css);
+            }
+
+            var myDiv = document.getElementById('video-1').getBoundingClientRect();
+            $('#video-bg').height(myDiv.height);
+            $('#hero').height(myDiv.height);
+            $('#video-o').height(myDiv.height);
+        }, 250);
+    </script>
+
+</body>
+
+</html>
